@@ -1,0 +1,13 @@
+
+name: geopandas_env
+channels:
+ - conda-forge
+dependencies:
+- pip 
+- pandas
+- numpy
+- matplotlib
+- jupyterlab
+- notebook
+- pip:
+    - geopandas
