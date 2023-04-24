@@ -9,6 +9,5 @@ dependencies:
 - matplotlib
 - jupyterlab
 - notebook
-- tqdm
 - pip:
     - geopandas
