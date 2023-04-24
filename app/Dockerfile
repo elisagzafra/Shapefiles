@@ -1,5 +1,5 @@
 #FROM python:latest as base
-FROM --platform=linux/and64/amd64 python:3.9.1 as base
+FROM --platform=linux/amd64 python:latest as base
 
 # Instalar conda
 # ## Conda Install
