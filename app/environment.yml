@@ -1,5 +1,3 @@
-
-name: geopandas_env
 channels:
  - conda-forge
  - defaults
@@ -10,7 +8,7 @@ dependencies:
 - matplotlib
 - jupyterlab
 - notebook
-- mapclassify
-- fiona
 - pip:
     - geopandas
+    - mapclassify
+    - fiona
