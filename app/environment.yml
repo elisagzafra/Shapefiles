@@ -10,6 +10,7 @@ dependencies:
 - matplotlib
 - jupyterlab
 - notebook
+- mapclassify
+- fiona
 - pip:
     - geopandas
-    - mapclassify
