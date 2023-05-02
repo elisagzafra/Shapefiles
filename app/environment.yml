@@ -2,6 +2,7 @@
 name: geopandas_env
 channels:
  - conda-forge
+ - defaults
 dependencies:
 - pip 
 - pandas
