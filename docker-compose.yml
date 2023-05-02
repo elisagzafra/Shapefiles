@@ -1,18 +1,14 @@
-## Version del formato de docker-compose
 version: "3.8"
 
-## servicios
 services:
-  app :
-    # Construye el docker especificado en esa carpeta
+  app:
     build: 
       context: ./app/
-    container_name: shapefiles_app
-    # Ejecutar hasta que el servicio exista
+    container_name: app
     ports:
       - '8887:8888'
-    stdin_open: true # docker run -i
-    tty: true # docker run -t
+    stdin_open: true 
+    tty: true
     restart: "on-failure"  
     volumes:
       - ./app:/app
