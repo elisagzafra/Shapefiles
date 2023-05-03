@@ -1,4 +1,6 @@
 # Para ejecutar el proyecto, correr este comando en la terminal:
+conda env create -f app/environment-data-analysis.yml
+conda activate analysis
 docker-compose up --build
 
 # Tarea:

@@ -36,6 +36,6 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 8888
+EXPOSE 8887
 
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser","--allow-root", "--NotebookApp.token=''","--NotebookApp.password=''"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8887", "--no-browser","--allow-root", "--NotebookApp.token=''","--NotebookApp.password=''"]
