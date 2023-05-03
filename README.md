@@ -1,5 +1,6 @@
 # Para ejecutar el proyecto, correr este comando en la terminal:
 (asegurate de no tener docker containers en el puerto 8887:8888)
+
 docker-compose up --build
 
 # Tarea:
