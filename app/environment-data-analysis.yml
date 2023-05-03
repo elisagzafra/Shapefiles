@@ -6,6 +6,9 @@ dependencies:
   - pip
   - gdal>=3.0
   - fiona=1.8.20
+  - ipykernel
+  - matplotlib=3.7.1
+  - mapclassify=2.5.0
   - pip:
     - geopandas
 

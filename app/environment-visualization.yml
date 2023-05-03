@@ -12,3 +12,6 @@ dependencies:
   - notebook
   - jupyter
   - ipykernel
+  - folium
+  - geopy
+    

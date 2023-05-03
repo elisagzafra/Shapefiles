@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: app/Dockerfile
     container_name: app
-    mem_limit: 8g
+    mem_limit: 4g
     ports:
       - "8887:8888"
     stdin_open: true
