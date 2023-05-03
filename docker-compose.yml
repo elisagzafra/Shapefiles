@@ -2,13 +2,15 @@ version: "3.8"
 
 services:
   app:
-    build: 
-      context: ./app/
+    build:
+      context: .
+      dockerfile: app/Dockerfile
     container_name: app
+    mem_limit: 8g
     ports:
-      - '8887:8888'
-    stdin_open: true 
+      - "8887:8888"
+    stdin_open: true
     tty: true
-    restart: "on-failure"  
+    restart: "on-failure"
     volumes:
-      - ./app:/app
+      - .:/app

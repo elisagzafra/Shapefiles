@@ -1,0 +1,13 @@
+name: visualization
+channels:
+ - defaults
+dependencies:
+  - pip
+  - pandas
+  - numpy
+  - jupyterlab
+  - matplotlib
+  - mapclassify
+  - fiona
+  - notebook
+  - jupyter

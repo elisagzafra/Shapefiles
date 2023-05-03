@@ -1,0 +1,11 @@
+name: analysis
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+  - pip
+  - gdal>=3.0
+  - fiona=1.8.20
+  - pip:
+    - geopandas
+
